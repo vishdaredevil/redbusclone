@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <script>
+                function myFunction() {
+                document.getElementById("demo2").innerHTML = "Paragraph changed.";
+                }
+                </script>
+        </head>
+    <body>
+
+
+    <button onclick="document.getElementById('myImage').src='download.jpg'">Day</button>
+
+    <img id="myImage" src="night.jpg" style="width:600px">
+
+    <button onclick="document.getElementById('myImage').src='night.jpg'">Night</button>
+
+    <p id="demo">My First JavaScript.</p>
+    <p id="demo1"></p>
+
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+    <script>
+        document.getElementById("demo1").innerHTML = "by using script tag";
+    </script>
+        <h2>Demo JavaScript in Head</h2>
+
+        <p id="demo2">A Paragraph</p>
+        <button type="button" onclick="myFunction()">Try it</button>
+    <!-- USE OF MULTI,ADD,SUB,DIV -->
+    <h2>arthemetic operations</h2>
+
+
+    <button type="button" onclick="document.write(10 + 5)">ADDITION</button><br/><br/>
+    <button type="button" onclick="document.write(10 % 5)">MODULUS</button><br/><br/>
+    <button type="button" onclick="document.write(10 - 5)">SUBSTRACTION</button><br/><br/>
+    <button type="button" onclick="document.write(10 * 5)">MULTIPLICATION</button><br/><br/>
+    <button type="button" onclick="document.write(10 / 5)">DIVISION</button>
+    <!-- USE OF LOOP -->
+    <p id="demo4"></p>
+
+    <script>
+    let text = "";
+    for (let i = 100; i > 0; i -= 2) {  
+    let ar = 3.14 * i * i;  
+    text += "The number is " + ar + "<br>";  
+    }
+    document.getElementById("demo4").innerHTML = text;
+    </script>
+
+    </body>
+    </html>
+
+    
